@@ -1,0 +1,794 @@
+{
+  "configuration_export": {
+    "message": "エクスポート設定"
+  },
+  "configuration_import": {
+    "message": "インポート構成"
+  },
+  "enterprise_only_label": {
+    "message": "Firefox ESR でのみ動作します"
+  },
+  "explanation_about_policies": {
+    "message": "Firefox 63 以降では、about:policies のファイル「policies.json」にすべてのアクティブなポリシーとエラーの概要があります。"
+  },
+  "explanation_headline_usage": {
+    "message": "使用法"
+  },
+  "explanation_intro": {
+    "message": "ボタンをクリックすると、コードが生成されます。 このコードは、ファイル「policies.json」に保存する必要があります。ファイルは、配布ディレクトリに保存する必要があります。"
+  },
+  "explanation_intro_linux": {
+    "message": "Firefox が配置されているディレクトリに「distribution」というディレクトリを作成し、そこに「policies.json」ファイルを配置します。"
+  },
+  "explanation_intro_macos": {
+    "message": "Firefox.app/Contents/Resources/に「distribution」というディレクトリを作成し、そこに「policies.json」ファイルを配置します。"
+  },
+  "explanation_intro_windows": {
+    "message": "firefox.exe ファイルがある「distribution」というディレクトリを作成し、そこに「policies.json」ファイルを配置します。"
+  },
+  "extension_description": {
+    "message": "Firefox のエンタープライズポリシーを生成します。"
+  },
+  "extension_name": {
+    "message": "Enterprise Policy Generator"
+  },
+  "filter_field": {
+    "message": "フィルターのポリシー…"
+  },
+  "generate_button": {
+    "message": "ポリシーを生成する"
+  },
+  "invalid_url_label": {
+    "message": "無効な URL"
+  },
+  "link_download": {
+    "message": "policies.json をダウンロードする"
+  },
+  "link_learn_more": {
+    "message": "詳しい情報"
+  },
+  "link_load_configuration": {
+    "message": "読み込みの設定"
+  },
+  "link_save_configuration": {
+    "message": "設定を保存する"
+  },
+  "link_select_all": {
+    "message": "すべて選択"
+  },
+  "list_dialog_btn_cancel": {
+    "message": "取り消す"
+  },
+  "list_dialog_no_saved_configurations": {
+    "message": "設定はまだ保存されていません。"
+  },
+  "list_dialog_window_title": {
+    "message": "読み込みの設定"
+  },
+  "list_table_name": {
+    "message": "名称"
+  },
+  "list_table_time": {
+    "message": "時間"
+  },
+  "lock_preference": {
+    "message": "設定を変更から保護する"
+  },
+  "mandatory_label": {
+    "message": "必須の"
+  },
+  "policy_category_block_access": {
+    "message": "アクセスをブロックする"
+  },
+  "policy_category_disable_features": {
+    "message": "機能を無効にする"
+  },
+  "policy_category_customization": {
+    "message": "カスタマイズ"
+  },
+  "policy_category_network": {
+    "message": "ネットワーク"
+  },
+  "policy_category_privacy": {
+    "message": "プライバシー"
+  },
+  "policy_category_security": {
+    "message": "セキュリティ"
+  },
+  "policy_category_update_and_data": {
+    "message": "更新とデータ収集"
+  },
+  "policy_category_others": {
+    "message": "その他のポリシー"
+  },
+  "policy_description_AppUpdateURL": {
+    "message": "Firefox 更新用の異なるサーバーの URL"
+  },
+  "policy_description_Authentication": {
+    "message": "統合認証をサポートするサイト"
+  },
+  "policy_description_Authentication_AllowNonFQDN": {
+    "message": "FQDN（fully qualified domain names）以外で、SPNEGO または NTLM を常に許可する"
+  },
+  "policy_description_Authentication_AllowNonFQDN_NTLM": {
+    "message": "FQDN 以外で、NTLM を常に許可する (Firefox 62+, Firefox ESR 60.2+)"
+  },
+  "policy_description_Authentication_AllowNonFQDN_SPNEGO": {
+    "message": "FQDN 以外で、SPNEGO を常に許可する (Firefox 62+, Firefox ESR 60.2+)"
+  },
+  "policy_description_Authentication_Delegated": {
+    "message": "委譲された"
+  },
+  "policy_description_Authentication_Delegated_URL": {
+    "message": "URL"
+  },
+  "policy_description_Authentication_NTLM": {
+    "message": "NTLM"
+  },
+  "policy_description_Authentication_NTLM_URL": {
+    "message": "URL"
+  },
+  "policy_description_Authentication_SPNEGO": {
+    "message": "SPNEGO"
+  },
+  "policy_description_Authentication_SPNEGO_URL": {
+    "message": "URL"
+  },
+  "policy_description_BlockAboutAddons": {
+    "message": "アドオンマネージャー（about:addons）へのアクセスをブロックする"
+  },
+  "policy_description_BlockAboutConfig": {
+    "message": "ブラウザの設定（about:config）へのアクセスをブロックする "
+  },
+  "policy_description_BlockAboutProfiles": {
+    "message": "コンテンツ内プロファイルマネージャー（about:profiles）へのアクセスをブロックする"
+  },
+  "policy_description_BlockAboutSupport": {
+    "message": "トラブルシューティング情報ページ（about:support）へのアクセスをブロックする"
+  },
+  "policy_description_Bookmarks": {
+    "message": "デフォルトのブックマークを作成する"
+  },
+  "policy_description_Bookmarks_Favicon": {
+    "message": "ファビコン"
+  },
+  "policy_description_Bookmarks_Folder": {
+    "message": "フォルダ"
+  },
+  "policy_description_Bookmarks_Placement": {
+    "message": "配置"
+  },
+  "policy_description_Bookmarks_Placement_Menu": {
+    "message": "ブックマークメニュー"
+  },
+  "policy_description_Bookmarks_Placement_Toolbar": {
+    "message": "ブックマークツールバー"
+  },
+  "policy_description_Bookmarks_Title": {
+    "message": "タイトル"
+  },
+  "policy_description_Bookmarks_URL": {
+    "message": "URL"
+  },
+  "policy_description_CaptivePortal": {
+    "message": "キャプティブポータル（captive portal）サポートを有効または無効にする"
+  },
+  "policy_description_CaptivePortal_options_false": {
+    "message": "キャプティブポータル（captive portal）サポートを無効にする"
+  },
+  "policy_description_CaptivePortal_options_true": {
+    "message": "キャプティブポータル（captive portal）サポートを有効にする"
+  },
+  "policy_description_Certificates": {
+    "message": "証明書を設定する"
+  },
+  "policy_description_Certificates_ImportEnterpriseRoots": {
+    "message": "システム証明書ストアから証明書を読み取ります（Windowsのみ; Firefox 63以降のmacOS; Firefox 64以降の無効化）"
+  },
+  "policy_description_Certificates_ImportEnterpriseRoots_false": {
+    "message": "システム証明書ストアから証明書を読み取らないでください"
+  },
+  "policy_description_Certificates_ImportEnterpriseRoots_true": {
+    "message": "システム証明書ストアから証明書を読み取ります"
+  },
+  "policy_description_Certificates_Install": {
+    "message": "証明書をインポートする (Firefox 64+, Firefox ESR 60.3.1+; Windows: %USERNAME\\AppData\\Local\\Mozilla\\証明書 or %USERNAME\\AppData\\Roaming\\Mozilla\\証明書, macOS: USERDIR/Library/Application Support/Mozilla/証明書 or /Library/Application Support/Mozilla/証明書, Linux: /home/user/.mozilla/証明書; Firefox 65からの配布/証明書および任意の絶対パス)"
+  },
+  "policy_description_Certificates_Install_Value": {
+    "message": ".crtファイルへのパス"
+  },
+  "policy_description_Cookies": {
+    "message": "Webサイトでの Cookie の設定を許可または拒否する"
+  },
+  "policy_description_Cookies_AcceptThirdParty": {
+    "message": "「サードパーティの Cookie とサイトデータを受け入れる」のデフォルト値"
+  },
+  "policy_description_Cookies_AcceptThirdParty_always": {
+    "message": "常に"
+  },
+  "policy_description_Cookies_AcceptThirdParty_from_visited": {
+    "message": "訪問からの"
+  },
+  "policy_description_Cookies_AcceptThirdParty_never": {
+    "message": "断固として"
+  },
+  "policy_description_Cookies_Allow": {
+    "message": "Cookie が常に許可されるドメイン"
+  },
+  "policy_description_Cookies_Allow_Domain": {
+    "message": "ドメイン"
+  },
+  "policy_description_Cookies_Block": {
+    "message": "Cookie が常にブロックされるドメイン"
+  },
+  "policy_description_Cookies_Block_Domain": {
+    "message": "ドメイン"
+  },
+  "policy_description_Cookies_Default": {
+    "message": "「Webサイトからの Cookie とサイトデータを受け入れる」のデフォルト値"
+  },
+  "policy_description_Cookies_Default_false": {
+    "message": "Cookie を受け入れない"
+  },
+  "policy_description_Cookies_Default_true": {
+    "message": "Cookie を受け入れる"
+  },
+  "policy_description_Cookies_ExpireAtSessionEnd": {
+    "message": "Cookie を保持するまで…"
+  },
+  "policy_description_Cookies_ExpireAtSessionEnd_false": {
+    "message": "… それらが期限切れになるまで"
+  },
+  "policy_description_Cookies_ExpireAtSessionEnd_true": {
+    "message": "… Firefox が閉じられるまで"
+  },
+  "policy_description_Cookies_RejectTracker": {
+    "message": "トラッキング Cookie を拒否する (Firefox 63+)"
+  },
+  "policy_description_DisableAppUpdate": {
+    "message": "Firefox が更新されないようにする"
+  },
+  "policy_description_DisableBuiltinPDFViewer": {
+    "message": "組み込みの PDFビューア（pdf.js）を無効にします"
+  },
+  "policy_description_DisableDeveloperTools": {
+    "message": "組み込みの［開発ツール］を無効にします"
+  },
+  "policy_description_DisableFeedbackCommands": {
+    "message": "ヘルプメニューの［フィードバックを送信］および［詐欺サイトを報告］のメニュー項目を無効にします"
+  },
+  "policy_description_DisableFirefoxAccounts": {
+    "message": "Firefox Sync などの Firefox アカウントベースのサービスを無効にする"
+  },
+  "policy_description_DisableFirefoxScreenshots": {
+    "message": "組み込みのスクリーンショットツール（Firefox Screenshots）を無効にする"
+  },
+  "policy_description_DisableFirefoxStudies": {
+    "message": "Firefox が調査（studies）とコンテキスト機能の推奨事項をインストールして実行するのを防ぎます"
+  },
+  "policy_description_DisableForgetButton": {
+    "message": "最後の閲覧履歴を忘れるのに使用できるツールバーボタンの「忘れる」を無効にします。"
+  },
+  "policy_description_DisableFormHistory": {
+    "message": "フォームと検索バーの履歴を無効にします"
+  },
+  "policy_description_DisableMasterPasswordCreation": {
+    "message": "マスターパスワード機能を無効にする"
+  },
+  "policy_description_DisablePocket": {
+    "message": "Mozilla のサービスである Pocket の統合を無効にします"
+  },
+  "policy_description_DisablePrivateBrowsing": {
+    "message": "プライベートブラウジングモードを無効にする"
+  },
+  "policy_description_DisableProfileImport": {
+    "message": "ブラウジングライブラリの「他のブラウザからデータをインポート」メニュー項目を無効にします"
+  },
+  "policy_description_DisableProfileRefresh": {
+    "message": "about:support の「Firefoxの更新」ボタンを無効にします"
+  },
+  "policy_description_DisableSecurityBypass": {
+    "message": "特定のセキュリティ警告がバイパスされないようにする"
+  },
+  "policy_description_DisableSecurityBypass_InvalidCertificate": {
+    "message": "無効な証明書が表示されたときに例外を追加しないようにします"
+  },
+  "policy_description_DisableSecurityBypass_InvalidCertificate_false": {
+    "message": "妨げない"
+  },
+  "policy_description_DisableSecurityBypass_InvalidCertificate_null": {
+    "message": "指定なし"
+  },
+  "policy_description_DisableSecurityBypass_InvalidCertificate_true": {
+    "message": "妨げる"
+  },
+  "policy_description_DisableSecurityBypass_SafeBrowsing": {
+    "message": "警告がバイパスされ、悪意のあるWebサイトにアクセスされるのを防ぐ"
+  },
+  "policy_description_DisableSecurityBypass_SafeBrowsing_false": {
+    "message": "妨げない"
+  },
+  "policy_description_DisableSecurityBypass_SafeBrowsing_null": {
+    "message": "指定なし"
+  },
+  "policy_description_DisableSecurityBypass_SafeBrowsing_true": {
+    "message": "妨げる"
+  },
+  "policy_description_DisableSetDesktopBackground": {
+    "message": "この機能を無効にして、画像をデスクトップの背景として設定します"
+  },
+  "policy_description_DisableSystemAddonUpdate": {
+    "message": "Firefox がシステムアドオンをインストールおよび更新しないようにする"
+  },
+  "policy_description_DisableTelemetry": {
+    "message": "Firefox が（遠隔測定機能の）技術データと対話データを Mozilla に送信しないようにします"
+  },
+  "policy_description_DisplayBookmarksToolbar": {
+    "message": "規定でブックマークツールバーを表示する"
+  },
+  "policy_description_DisplayMenuBar": {
+    "message": "規定でメニューバーを表示する"
+  },
+  "policy_description_DNSOverHTTPS": {
+    "message": "HTTPS 経由で DNS を設定します"
+  },
+  "policy_description_DNSOverHTTPS_Enabled_false": {
+    "message": "HTTPS 経由の DNS を無効にする"
+  },
+  "policy_description_DNSOverHTTPS_Enabled_true": {
+    "message": "HTTPS 経由の DNS を有効にする"
+  },
+  "policy_description_DNSOverHTTPS_ProviderURL": {
+    "message": "プロバイダー URL"
+  },
+  "policy_description_DontCheckDefaultBrowser": {
+    "message": "起動時に規定のブラウザの確認を設定します"
+  },
+  "policy_description_DontCheckDefaultBrowser_options_false": {
+    "message": "Firefox が規定のブラウザである場合、起動時に確認します (Firefox 66+, Firefox ESR 60.6+)"
+  },
+  "policy_description_DontCheckDefaultBrowser_options_true": {
+    "message": "Firefox が規定のブラウザである場合は、起動時に確認しないでください"
+  },
+  "policy_description_EnableTrackingProtection": {
+    "message": "「追跡」保護を有効または無効にする"
+  },
+  "policy_description_EnableTrackingProtection_Value_false": {
+    "message": "「追跡」保護を無効にする"
+  },
+  "policy_description_EnableTrackingProtection_Value_true": {
+    "message": "「追跡」保護を有効にする"
+  },
+  "policy_description_Extensions": {
+    "message": "拡張機能のインストール、アンインストール、ロック"
+  },
+  "policy_description_Extensions_Install": {
+    "message": "アドオンをインストールします。 URL またはパスを指定できます。"
+  },
+  "policy_description_Extensions_Install_URL_or_Path": {
+    "message": "URL またはパス"
+  },
+  "policy_description_Extensions_Locked": {
+    "message": "ロックされた拡張機能は無効化またはアンインストールできません。 拡張機能 ID を指定してください。"
+  },
+  "policy_description_Extensions_Locked_ID": {
+    "message": "アドオン ID"
+  },
+  "policy_description_Extensions_Uninstall": {
+    "message": "アドオンをアンインストールします。 拡張機能 ID を指定してください。"
+  },
+  "policy_description_Extensions_Uninstall_ID": {
+    "message": "アドオン ID"
+  },
+  "policy_description_ExtensionUpdate": {
+    "message": "拡張機能の自動更新を有効または無効にする"
+  },
+  "policy_description_ExtensionUpdate_options_false": {
+    "message": "拡張機能の自動更新を無効にする"
+  },
+  "policy_description_ExtensionUpdate_options_true": {
+    "message": "拡張機能の自動更新を有効にする"
+  },
+  "policy_description_FlashPlugin": {
+    "message": "Flash プラグインの使用を許可または拒否する"
+  },
+  "policy_description_FlashPlugin_Allow": {
+    "message": "Flash が完全に無効になっていない限り、これらの URL の Flash プラグインを規定で有効にします"
+  },
+  "policy_description_FlashPlugin_Allow_URL": {
+    "message": "URL"
+  },
+  "policy_description_FlashPlugin_Block": {
+    "message": "これらの URL の Flash プラグインをブロックする"
+  },
+  "policy_description_FlashPlugin_Block_URL": {
+    "message": "URL"
+  },
+  "policy_description_FlashPlugin_Default": {
+    "message": "常に Flash を有効または無効にする"
+  },
+  "policy_description_FlashPlugin_Default_false": {
+    "message": "Flash は常に無効です"
+  },
+  "policy_description_FlashPlugin_Default_null": {
+    "message": "指定なし"
+  },
+  "policy_description_FlashPlugin_Default_true": {
+    "message": "Flash は常に有効です"
+  },
+  "policy_description_HardwareAcceleration": {
+    "message": "ハードウェアアクセラレーションを無効にする"
+  },
+  "policy_description_Homepage": {
+    "message": "ホームページを設定する"
+  },
+  "policy_description_Homepage_Additional": {
+    "message": "追加の URL"
+  },
+  "policy_description_Homepage_StartPage": {
+    "message": "Firefox を起動します… (Firefox 64+, Firefox ESR 60.3.1+)"
+  },
+  "policy_description_Homepage_StartPage_Homepage": {
+    "message": "… ホームページとして定義されているウェブサイト"
+  },
+  "policy_description_Homepage_StartPage_None": {
+    "message": "… 空のページ"
+  },
+  "policy_description_Homepage_StartPage_Previous_Session": {
+    "message": "… 直前のブラウザセッション"
+  },
+  "policy_description_Homepage_URL": {
+    "message": "URL"
+  },
+  "policy_description_InstallAddonsPermission": {
+    "message": "Web サイトがアドオンをインストールすることを許可する"
+  },
+  "policy_description_InstallAddonsPermission_Allow": {
+    "message": "アドオンのインストールが無効になっていない限り、拡張機能をインストールできる Web サイト（addons.mozilla.org はすでに許可されています）"
+  },
+  "policy_description_InstallAddonsPermission_Allow_URL": {
+    "message": "URL"
+  },
+  "policy_description_InstallAddonsPermission_Default_false": {
+    "message": "ユーザーがアドオンをインストールすることはできません"
+  },
+  "policy_description_InstallAddonsPermission_Default_true": {
+    "message": "アドオンはユーザーがインストールできます"
+  },
+  "policy_description_NetworkPrediction": {
+    "message": "ネットワーク予測（DNS 先読み）を有効または無効にする"
+  },
+  "policy_description_NetworkPrediction_options_false": {
+    "message": "ネットワーク予測（DNS 先読み）を無効にする"
+  },
+  "policy_description_NetworkPrediction_options_true": {
+    "message": "ネットワーク予測（DNS 先読み）を有効にする"
+  },
+  "policy_description_NoDefaultBookmarks": {
+    "message": "Firefox に附属されている規定のブックマーク、スマートブックマーク（最もアクセスの多い、最近のタグ）を作成しないでください。注：このポリシーは、プロファイルの最初の実行前に使用された場合にのみ有効です"
+  },
+  "policy_description_OfferToSaveLogins": {
+    "message": "Firefox が保存されたログイン情報とパスワードを記憶することを許可または禁止する"
+  },
+  "policy_description_OfferToSaveLogins_options_false": {
+    "message": "保存されたログイン情報とパスワードを記憶することを禁止する"
+  },
+  "policy_description_OfferToSaveLogins_options_true": {
+    "message": "保存されたログイン情報とパスワードを記憶することを許可する"
+  },
+  "policy_description_OverrideFirstRunPage": {
+    "message": "最初の実行ページをオーバーライドします。 最初の実行ページを無効にする場合は、このポリシーを空白に設定します。"
+  },
+  "policy_description_OverridePostUpdatePage": {
+    "message": "更新後の「新機能」ページをオーバーライドします。 更新後のページを無効にする場合は、このポリシーを空白に設定します。"
+  },
+  "policy_description_Permissions": {
+    "message": "位置情報、カメラ、マイク、通知のアクセス許可を設定する"
+  },
+  "policy_description_Permissions_Camera": {
+    "message": "カメラ"
+  },
+  "policy_description_Permissions_Camera_Allow": {
+    "message": "これらの URL へのアクセスを許可する"
+  },
+  "policy_description_Permissions_Camera_Allow_URL": {
+    "message": "URL"
+  },
+  "policy_description_Permissions_Camera_Block": {
+    "message": "これらの URL へのアクセスをブロックする"
+  },
+  "policy_description_Permissions_Camera_Block_URL": {
+    "message": "URL"
+  },
+  "policy_description_Permissions_Camera_BlockNewRequests": {
+    "message": "カメラへのアクセスを求める新しいリクエストをブロックする"
+  },
+  "policy_description_Permissions_Location": {
+    "message": "位置情報"
+  },
+  "policy_description_Permissions_Location_Allow": {
+    "message": "これらの URL へのアクセスを許可する"
+  },
+  "policy_description_Permissions_Location_Allow_URL": {
+    "message": "URL"
+  },
+  "policy_description_Permissions_Location_Block": {
+    "message": "これらの URL へのアクセスをブロックする"
+  },
+  "policy_description_Permissions_Location_Block_URL": {
+    "message": "URL"
+  },
+  "policy_description_Permissions_Location_BlockNewRequests": {
+    "message": "位置情報へのアクセスを求める新しいリクエストをブロックする"
+  },
+  "policy_description_Permissions_Microphone": {
+    "message": "マイク"
+  },
+  "policy_description_Permissions_Microphone_Allow": {
+    "message": "これらの URL へのアクセスを許可する"
+  },
+  "policy_description_Permissions_Microphone_Allow_URL": {
+    "message": "URL"
+  },
+  "policy_description_Permissions_Microphone_Block": {
+    "message": "これらの URL へのアクセスをブロックする"
+  },
+  "policy_description_Permissions_Microphone_Block_URL": {
+    "message": "URL"
+  },
+  "policy_description_Permissions_Microphone_BlockNewRequests": {
+    "message": "マイクへのアクセスを求める新しいリクエストをブロックする"
+  },
+  "policy_description_Permissions_Notifications": {
+    "message": "通知"
+  },
+  "policy_description_Permissions_Notifications_Allow": {
+    "message": "これらの URL へのアクセスを許可する"
+  },
+  "policy_description_Permissions_Notifications_Allow_URL": {
+    "message": "URL"
+  },
+  "policy_description_Permissions_Notifications_Block": {
+    "message": "これらの URL へのアクセスをブロックする"
+  },
+  "policy_description_Permissions_Notifications_Block_URL": {
+    "message": "URL"
+  },
+  "policy_description_Permissions_Notifications_BlockNewRequests": {
+    "message": "通知へのアクセスを求める新しいリクエストをブロックする"
+  },
+  "policy_description_PopupBlocking": {
+    "message": "ポップアップの使用を許可または拒否する"
+  },
+  "policy_description_PopupBlocking_Allow": {
+    "message": "ポップアップウィンドウが許可されているドメイン"
+  },
+  "policy_description_PopupBlocking_Allow_URL": {
+    "message": "URL"
+  },
+  "policy_description_PopupBlocking_Default_false": {
+    "message": "ポップアップは規定ではブロックされません"
+  },
+  "policy_description_PopupBlocking_Default_true": {
+    "message": "ポップアップは規定でブロックされます"
+  },
+  "policy_description_Proxy": {
+    "message": "インターネットへのプロキシアクセスを設定する"
+  },
+  "policy_description_Proxy_AutoConfigURL": {
+    "message": "自動プロキシ設定 URL"
+  },
+  "policy_description_Proxy_AutoLogin": {
+    "message": "認証のためのプロンプト"
+  },
+  "policy_description_Proxy_AutoLogin_false": {
+    "message": "認証のためのプロンプト"
+  },
+  "policy_description_Proxy_AutoLogin_true": {
+    "message": "認証のためのプロンプトを表示しません"
+  },
+  "policy_description_Proxy_HTTPProxy": {
+    "message": "HTTP プロキシ。 ポート番号を設定するには、“:” の後にポート番号を追加してください"
+  },
+  "policy_description_Proxy_Mode_autoConfig": {
+    "message": "自動プロキシ設定 URL"
+  },
+  "policy_description_Proxy_Mode_autoDetect": {
+    "message": "このネットワークのプロキシ設定を自動検出する"
+  },
+  "policy_description_Proxy_Mode_manual": {
+    "message": "手動でプロキシを設定する"
+  },
+  "policy_description_Proxy_Mode_none": {
+    "message": "プロキシを使用しない"
+  },
+  "policy_description_Proxy_Mode_system": {
+    "message": "システムのプロキシ設定を利用する"
+  },
+  "policy_description_Proxy_FTPProxy": {
+    "message": "FTP プロキシ。 ポート番号を設定するには、“:” の後にポート番号を追加してください"
+  },
+  "policy_description_Proxy_Passthrough": {
+    "message": "プロキシなしで…"
+  },
+  "policy_description_Proxy_SOCKSProxy": {
+    "message": "SOCKS ホスト. ポート番号を設定するには、“:” の後にポート番号を追加してください"
+  },
+  "policy_description_Proxy_SOCKSVersion_v4": {
+    "message": "SOCKS v4"
+  },
+  "policy_description_Proxy_SOCKSVersion_v5": {
+    "message": "SOCKS v5"
+  },
+  "policy_description_Proxy_SSLProxy": {
+    "message": "SSL プロキシ。 ポート番号を設定するには、“:” の後にポート番号を追加してください"
+  },
+  "policy_description_Proxy_UseHTTPProxyForAllProtocols_false": {
+    "message": "すべてのプロトコルにこのプロキシサーバーを使用しないでください"
+  },
+  "policy_description_Proxy_UseHTTPProxyForAllProtocols_true": {
+    "message": "すべてのプロトコルにこのプロキシサーバーを使用する"
+  },
+  "policy_description_Proxy_UseProxyForDNS": {
+    "message": "SOCKS v5を使用する場合のプロキシ DNS"
+  },
+  "policy_description_Proxy_UseProxyForDNS_false": {
+    "message": "プロキシ DNS を使用しないでください"
+  },
+  "policy_description_Proxy_UseProxyForDNS_true": {
+    "message": "プロキシ DNS を使用する"
+  },
+  "policy_description_RequestedLocales": {
+    "message": "Firefox のインターフェース言語を変更する"
+  },
+  "policy_description_RequestedLocales_Requirement": {
+    "message": "対応する言語パッケージをインストールする必要があります"
+  },
+  "policy_description_RequestedLocales_Value": {
+    "message": "言語コード"
+  },
+  "policy_description_SanitizeOnShutdown": {
+    "message": "シャットダウン時にすべてのブラウザーデータを消去する"
+  },
+  "policy_description_SearchBar": {
+    "message": "検索バーが統合されているか分離されているか"
+  },
+  "policy_description_SearchBar_options_separate": {
+    "message": "別の検索バーがあります"
+  },
+  "policy_description_SearchBar_options_unified": {
+    "message": "検索とアドレスバーが統合されています"
+  },
+  "policy_description_SearchEngines": {
+    "message": "Firefox に組み込まれている検索エンジンのリストを変更します"
+  },
+  "policy_description_SearchEngines_Add": {
+    "message": "検索エンジンを追加"
+  },
+  "policy_description_SearchEngines_Add_Alias": {
+    "message": "エンジンへのアクセスに使用できるエイリアス"
+  },
+  "policy_description_SearchEngines_Add_Description": {
+    "message": "説明"
+  },
+  "policy_description_SearchEngines_Add_IconURL": {
+    "message": "アイコン URL"
+  },
+  "policy_description_SearchEngines_Add_Method": {
+    "message": "リクエスト方法"
+  },
+  "policy_description_SearchEngines_Add_Method_GET": {
+    "message": "取得する"
+  },
+  "policy_description_SearchEngines_Add_Method_POST": {
+    "message": "POST (Firefox 67+)"
+  },
+  "policy_description_SearchEngines_Add_Name": {
+    "message": "名称"
+  },
+  "policy_description_SearchEngines_Add_PostData": {
+    "message": "POST データ (POST メソッドが選択された場合；例えば q={searchTerms}&anotherParam=yes)"
+  },
+  "policy_description_SearchEngines_Add_SuggestURLTemplate": {
+    "message": "提案のためのURL。 検索語のプレースホルダーとして {searchTerms} を使用してください"
+  },
+  "policy_description_SearchEngines_Add_URL": {
+    "message": "検索用の URL。 検索語のプレースホルダーとして {searchTerms} を使用してください"
+  },
+  "policy_description_SearchEngines_Default": {
+    "message": "規定の検索エンジンの名称"
+  },
+  "policy_description_SearchEngines_PreventInstalls": {
+    "message": "新しい検索エンジンのインストールを防ぐ"
+  },
+  "policy_description_SearchEngines_PreventInstalls_false": {
+    "message": "インストールを妨げない"
+  },
+  "policy_description_SearchEngines_PreventInstalls_true": {
+    "message": "インストールを防ぐ"
+  },
+  "policy_description_SearchEngines_Remove": {
+    "message": "検索エンジンを削除します (Firefox 62+, Firefox ESR 60.2+)"
+  },
+  "policy_description_SearchEngines_Remove_Name": {
+    "message": "名称"
+  },
+  "policy_description_SecurityDevices": {
+    "message": "PKCS #11 モジュールを追加する"
+  },
+  "policy_description_SecurityDevices_label_key": {
+    "message": "デバイスの名称"
+  },
+  "policy_description_SecurityDevices_label_value": {
+    "message": "デバイスのライブラリへのパス"
+  },
+  "policy_description_SSLVersionMax": {
+    "message": "サポートされる最大 TLS バージョン"
+  },
+  "policy_description_SSLVersionMin": {
+    "message": "最低限必要な TLS バージョン"
+  },
+  "policy_description_SupportMenu": {
+    "message": "ヘルプメニューにカスタムサポートメニュー項目を追加する"
+  },
+  "policy_description_SupportMenu_AccessKey": {
+    "message": "アクセスキー（単一の文字！）"
+  },
+  "policy_description_SupportMenu_Title": {
+    "message": "タイトル"
+  },
+  "policy_description_SupportMenu_URL": {
+    "message": "URL"
+  },
+  "policy_description_WebsiteFilter": {
+    "message": "Web サイトへのアクセスをブロックします。 すべての URL をブロックするには、“<all_urls>” を使用できます。 すべての有効なエントリの情報リンクを参照してください。ただし、HTTPS と HTTP のみがサポートされています。"
+  },
+  "policy_description_WebsiteFilter_Block": {
+    "message": "次の URL をブロックする"
+  },
+  "policy_description_WebsiteFilter_Block_URL": {
+    "message": "URL"
+  },
+  "policy_description_WebsiteFilter_Exceptions": {
+    "message": "例外"
+  },
+  "policy_description_WebsiteFilter_Exceptions_URL": {
+    "message": "URL"
+  },
+  "policy_label_default": {
+    "message": "規定"
+  },
+  "requirement_windows_or_linux": {
+    "message": "Windows および Linux でのみ動作します"
+  },
+  "save_dialog_btn_cancel": {
+    "message": "取り消す"
+  },
+  "save_dialog_btn_ok": {
+    "message": "設定を保存する"
+  },
+  "save_dialog_form_name": {
+    "message": "名称"
+  },moz-extension://b9cd0e38-c95a-49e2-a36f-6fef4c3ae5d9/icons/pratikabu-stt-dual-vr-1.png
+  "save_dialog_window_title": {
+    "message": "設定を保存する"
+  },
+  "title_add_row": {
+    "message": "行を追加する"
+  },
+  "title_apply_configuration": {
+    "message": "読み込みの設定"
+  },
+  "title_remove_configuration": {
+    "message": "設定を削除する"
+  },
+  "title_remove_row": {
+    "message": "行を削除"
+  },
+  "version_or_higher": {
+    "message": "以上"
+  },
+  "version_required": {
+    "message": "少なくとも必要です"
+  }
+}
